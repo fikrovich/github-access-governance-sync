@@ -1,0 +1,6 @@
+repo,user,direct_permission,direct_role_name,team_slug,team_name,team_permission,team_membership_role,user_type,site_admin,org_role,org_state,is_outside_collaborator
+payments-api,alice,admin,admin,platform-admins,Platform Admins,admin,member,User,false,member,active,false
+payments-api,bob,push,write,,,,,User,false,member,active,false
+mobile-app,carol,,,mobile-engineering,Mobile Engineering,push,maintainer,User,false,member,active,false
+infra-modules,dave,pull,read,security-reviewers,Security Reviewers,triage,member,User,false,admin,active,false
+partner-portal,external-consultant,,,,,,,User,false,,inactive,true
